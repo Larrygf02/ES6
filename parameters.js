@@ -20,3 +20,14 @@ function f(x,y, ...a){
     return (x+y) * a.length
 }
 //console.log(suma(1));
+//ES5
+var pairs = ['hola',true,4]
+var z = [1,2].concat(pairs)
+var name = 'kelly'
+var chars = name.split("");
+
+//ES6
+var others = [1,2, ...pairs]
+var chars = [...name]
+console.log(others)
+console.log(chars)
