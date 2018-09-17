@@ -5,3 +5,4 @@ console.log(arreglo.findIndex(x => x >3))
 
 //ES5 -> method filter and [0]
 console.log(arreglo.filter(function(x){ return x >3;})[0]);
+//el metodo findIndex no tiene un equivalente ES5
