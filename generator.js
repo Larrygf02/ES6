@@ -11,5 +11,5 @@ for (let n of fibonacci){
     if (n > 1000)
         break
     console.log(n)
-    console.log('1')
+    console.log('2')
 }
